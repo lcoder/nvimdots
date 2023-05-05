@@ -1,3 +1,6 @@
+-- https://neovide.dev/configuration.html#macos-alt-is-meta
+vim.g.neovide_input_macos_alt_is_meta = true
+
 if not vim.g.vscode then
 	require("core")
 
